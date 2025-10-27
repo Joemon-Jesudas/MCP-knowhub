@@ -23,7 +23,7 @@ automatic visualizations.
 - list_tables(): List all database tables
 - describe_table(): Get table schema details
 - execute_query(): Run SQL SELECT queries
-- generate_visualization(): 🆕 Create charts from SQL results
+- generate_visualization(): Create charts from SQL results
 
 **NEW Visualization Capabilities**:
 - Auto-detects best chart type (bar, line, pie, scatter)
