@@ -1,0 +1,104 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\MCP_vulnerabilities\\"
+      ]
+    },
+    "weather-server": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-server-weather",
+        "run",
+        "server.py"
+      ]
+    },
+    "crypto-server": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-server-weather",
+        "run",
+        "crypto-server.py"
+      ]
+    },
+"knowhub-database-server": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://MCP_vulnerabilities",
+        "run",
+        "mcp_postgres_server.py"
+      ]
+    },
+
+   "financial-server": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-server-weather",
+        "run",
+        "financial-comp-server.py"
+      ]
+    },
+"model-monitoring-server": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-model-monitoring",
+        "run",
+        "server.py"
+      ]
+    },
+"uk-liability-server": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-uk-liability",
+        "run",
+        "server.py"
+      ]
+    },
+"Settlement Benchmarking": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-claim-settlement",
+        "run",
+        "server.py"
+      ]
+    },
+"Panel_recommendation": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-panel-solicitor",
+        "run",
+        "server.py"
+      ]
+    },
+
+   "indirect_prompt_injection": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://MCP_vulnerabilities",
+        "run",
+        "indirect_prompt_injection_mcp.py"
+      ]
+    },
+    "math-server": {
+      "command": "C://Users//Jomon//.local//bin//uv.exe",
+      "args": [
+        "--directory",
+        "D://mcp-server-weather",
+        "run",
+        "mcp-math.py"
+      ]
+    }
+  }
+}
