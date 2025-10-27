@@ -41,7 +41,7 @@ automatic visualizations.
 - psycopg2-binary>=2.9.0
 - python-dotenv>=1.0.0
 
-**Installation**: `pip install -r requirements.txt`
+**Installation**: `pip install -r requirements.txt` or 
                    `uv add -r requirement.txt`
 
 ---
